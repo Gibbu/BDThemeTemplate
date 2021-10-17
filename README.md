@@ -7,7 +7,8 @@ Quick template to create BetterDiscord themes using SCSS.
 	1. `npm i -g degit`
 	2. `npx degit Gibbu/BDThemeTemplate <your project name>`
 		- Example: `cd desktop && npx degit Gibbu/BDThemeTemplate CoolTheme`
-	3. `npm i`
+	3. `cd <your project name>`
+	4. `npm i`
 3. Open `scripts/config.json` and change the `name` field to whatever your theme is called.
 	- This will tell the other scripts what to output and log.
 4. Open `src/_theme.scss` and change the meta fields to fit your needs.
