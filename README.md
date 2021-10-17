@@ -12,6 +12,7 @@ Quick template to create BetterDiscord themes using SCSS.
 3. Open `scripts/config.json` and change the `name` field to whatever your theme is called.
 	- This will tell the other scripts what to output and log.
 4. Open `src/_theme.scss` and change the meta fields to fit your needs.
+	- You can view all available meta fields [HERE](https://github.com/BetterDiscord/BetterDiscord/wiki/Plugin-and-Theme-METAs).
 5. Do the same with `dist/THEME.theme.css`.
 	- Change the file name as well as this is what end users will be downloading to use your theme.
 6. Open `dist/THEME.theme.css` and change the `@import url` to match your location.
