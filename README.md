@@ -26,10 +26,9 @@ And it will watch for any changes inside the `src` folder and auto compile them 
 - - -
 
 #### Deployment
-If you're wishing to publish your theme for others to use, you need to do another couple of steps.
+If you're wishing to publish your theme for others to use, there's one more step to do.
 
-1. Create a `deploy` branch on your GitHub repository.
-2. Enable GitHub pages on your GitHub repository and setting `deploy` as the target.
+- Enable GitHub pages on your GitHub repository and set `deploy` as the target.
 
 Now all you need to do is push your changes to the `main` branch and GitHub actions will auto compile your `src` folder to the `deploy` branch.
 
