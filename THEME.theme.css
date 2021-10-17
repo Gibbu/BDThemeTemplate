@@ -1,0 +1,13 @@
+/**
+ * @name NAME
+ * @author AUTHOR
+ * @version Dev
+ * @description DESCRIPTION
+ * @source https://github.com/
+*/
+
+@import url('https://username.github.io/repo/theme.css');
+
+:root {
+	--username-colour: red;
+}
