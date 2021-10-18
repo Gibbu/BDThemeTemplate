@@ -1,3 +1,5 @@
 .nickname-3M3Jfa {
   color: var(--username-colour) !important;
+  -webkit-mask: url("test mask");
+          mask: url("test mask");
 }
