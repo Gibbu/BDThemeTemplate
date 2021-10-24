@@ -39,12 +39,11 @@ Now all you need to do is push your changes to the `main` branch and GitHub acti
 #### `scripts/config.json`
 
 This file *should* contain everything you need to personalise the compiler.  
-- `name` Is what the compiler uses for the required outputs.
-	- So your build css file name will be `CoolTheme.css` and your dev file name will be `CoolTheme.theme.css`, if set "CoolTheme" of course.
-- `compiler.postcss` This tells the compiler to run your css output through postcss and autoprefixer all your styles.
-	- This is HIGHLY recommended to leave as true.
-- `dev.target` Is the target in which the dev script will compile.
-	- If you change the `main.scss` name, you must change this value to match.
-- `build.target` Pretty much the same as `dev.target` but for the build script which will trigger with the GitHub action.
-- `build.outputPath` Is where you wish your file to be placed. Usually, keeping this to the `dist` folder will do just fine.
-	- The compiler will auto create directories if they are not found.
+
+| Property | Type | Description |
+| --- | --- | --- |
+| `compiler.prefix` | boolean | Run the CSS through the PostCSS autoprefixer. |
+| `dev.target` | array | The target of the dev script to watch and autocompile. |
+| `dev.output` | array | The path to which your file will compile to. Keeping this to "[ThemeName].theme.css" will usually be fine. |
+| `build.target` | array | Much like `dev.target`, but will compile the `_base.scss` to not include the theme end users will download. Note: The last index of the array MUST be a file (ending with a file extension). |
+| `build.output` | array | Again, much like `dev.output` but will compile to the local `dist` folder. Note: The compiler will auto create directories if not found.
