@@ -1,3 +1,10 @@
+#### Deprecated in favour of my [create-bd-theme](https://github.com/Gibbu/create-bd-theme) CLI.
+
+- - -
+
+<br>
+<br>
+
 # BDThemeTemplate
 Quick template to create BetterDiscord themes using SCSS.
 
